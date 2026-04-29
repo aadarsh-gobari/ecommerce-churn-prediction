@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (never commit raw data to GitHub)
+data/raw/
+data/processed/
+
+# Models (large files)
+models/*.pkl
+models/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
